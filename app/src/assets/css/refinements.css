@@ -12,12 +12,10 @@
 }
 
 .ais-CurrentRefinements {
-    /* margin-bottom: .25rem; */
     display: inline-flex;
 }
 
 .ais-ClearRefinements {
-    /* margin-bottom: .25rem; */
     display: inline-flex;
 }
 
@@ -54,4 +52,21 @@
         overflow-x: initial;
         white-space: initial;
     }
+}
+
+.ais-ClearRefinements-button--disabled {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    height: 2px;
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+.ais-CurrentRefinements:not(.ais-CurrentRefinements--noRefinement) {
+    margin-bottom: 1rem;
 }

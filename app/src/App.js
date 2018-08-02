@@ -18,7 +18,7 @@ import './assets/css/refinements.css'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Product from './components/Product'
+import Hit from './components/Hit'
 
 const appId = process.env.REACT_APP_APPLICATION_ID
 const apiKey = process.env.REACT_APP_SEARCHONLY_APIKEY
@@ -33,7 +33,7 @@ function Search() {
 			<SearchBox />
 			<RefinementList attribute="category" />
 			<Pagination />
-			<Hits hitComponent={Product} />
+			<Hits hitComponent={Hit} />
 			<Pagination />
 			<Footer />
 		</div>

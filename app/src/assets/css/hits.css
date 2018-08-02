@@ -18,14 +18,6 @@
     color: #ccc;
     font-family: monospace;
     word-wrap: break-word;
-
-    /* display: none; */
-}
-
-@media (min-width: 40em) {
-    .hit-url {
-        /* display: block; */
-    }
 }
 
 .hit-title {

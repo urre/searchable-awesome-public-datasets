@@ -11,7 +11,15 @@ const Header = () => {
 						Searchable Awesome Public Datasets
 					</h1>
 				</a>
-				<img src={logo} className="header-title-logo" alt="Logo" />
+				<div>
+					<img src={logo} className="header-title-logo" alt="Logo" />
+					<a
+						className="footer-badge"
+						href="https://github.com/awesomedata/awesome-public-datasets"
+					>
+						<img src="https://awesome.re/badge-flat.svg" alt="Awesome" />
+					</a>
+				</div>
 			</div>
 		</header>
 	)

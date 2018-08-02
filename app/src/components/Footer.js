@@ -10,12 +10,6 @@ const Footer = () => {
 					Github
 				</a>
 			</p>
-			<a
-				className="footer-badge"
-				href="https://github.com/awesomedata/awesome-public-datasets"
-			>
-				<img src="https://awesome.re/badge-flat.svg" alt="Awesome" />
-			</a>
 		</footer>
 	)
 }

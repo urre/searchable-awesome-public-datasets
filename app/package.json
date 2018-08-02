@@ -15,6 +15,7 @@
     "build": "react-scripts build",
     "deploy": "now && now alias",
     "release": "npm run build && npm run deploy",
+    "nowrm": "now rm sapd --safe --yes",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

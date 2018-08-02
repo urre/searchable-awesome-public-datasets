@@ -7,12 +7,7 @@ const Product = ({ hit }) => {
 		<a href={hit.url}>
 			<Highlight attribute="name" hit={hit} />
 			<h2 className="hit-title">{hit.title}</h2>
-			<span className="hit-url">
-				<span role="img" aria-label="Earth emoji">
-					🌎
-				</span>{' '}
-				{hit.url}
-			</span>
+			<span className="hit-url">{hit.url}</span>
 		</a>
 	)
 }

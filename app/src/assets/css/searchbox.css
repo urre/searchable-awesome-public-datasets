@@ -24,10 +24,6 @@ input[type='search']:focus {
     outline: none;
 }
 
-.ais-SearchBox {
-    margin-top: 1rem;
-}
-
 .ais-SearchBox-submit {
     display: none;
 }

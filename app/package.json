@@ -8,10 +8,12 @@
     "react-dom": "^16.4.2",
     "react-instantsearch": "^5.2.2",
     "react-instantsearch-dom": "^5.2.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "serve": "^9.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "now-start": "serve --single ./build",
     "build": "react-scripts build",
     "deploy": "now && now alias",
     "release": "npm run build && npm run deploy",

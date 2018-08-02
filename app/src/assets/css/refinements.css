@@ -58,15 +58,15 @@
     display: none;
 }
 
-::-webkit-scrollbar {
+.ais-CurrentRefinements:not(.ais-CurrentRefinements--noRefinement) {
+    margin-bottom: 1rem;
+}
+
+.ais-RefinementList-list ::-webkit-scrollbar {
     height: 2px;
     width: 2px;
 }
 
-::-webkit-scrollbar-thumb {
+.ais-RefinementList-list ::-webkit-scrollbar-thumb {
     background-color: #ccc;
-}
-
-.ais-CurrentRefinements:not(.ais-CurrentRefinements--noRefinement) {
-    margin-bottom: 1rem;
 }

@@ -6,7 +6,9 @@ const Footer = () => {
 		<footer className="footer">
 			<p>
 				By <a href="https://urre.me">Urban Sandén.</a> Code on{' '}
-				<a href="http://github.com/urre">Github</a>
+				<a href="https://github.com/urre/searchable-awesome-public-datasets">
+					Github
+				</a>
 			</p>
 			<a
 				className="footer-badge"

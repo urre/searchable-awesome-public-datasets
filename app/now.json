@@ -1,0 +1,17 @@
+{
+	"name": "sapd",
+	"alias": "searchable-awesome-public-datasets",
+	"public": true,
+	"env": {
+		"REACT_APP_SEARCHONLY_APIKEY": "@react_app_searchonly_apikey",
+		"REACT_APP_ADMIN_APIKEY": "@react_app_admin_apikey",
+		"REACT_APP_APPLICATION_ID": "@react_app_application_id",
+		"REACT_APP_INDEX_NAME": "@react_app_index_name"
+	},
+	"scale": {
+		"bru1": {
+			"min": 1,
+			"max": "auto"
+		}
+	}
+}

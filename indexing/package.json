@@ -1,0 +1,23 @@
+{
+  "name": "awesome-public-datasets-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "algoliasearch": "^3.29.0",
+    "axios": "^0.18.0",
+    "cherio": "^1.0.0-rc.2",
+    "line-reader": "^0.4.0",
+    "prettyjson": "^1.2.1",
+    "restructured": "0.0.11"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  }
+}

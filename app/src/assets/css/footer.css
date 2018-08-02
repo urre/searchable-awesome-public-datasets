@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.footer-badge {
+    margin-left: 1rem;
+}
+
+.footer p {
+    font-size: 0.75rem;
+    color: #666;
+}

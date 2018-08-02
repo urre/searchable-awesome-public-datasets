@@ -1,0 +1,57 @@
+.ais-RefinementList-item {
+    display: inline-flex;
+    margin-right: 1rem;
+}
+
+.ais-ClearRefinements-button {
+    background-color: salmon;
+}
+
+.ais-ClearRefinements-button:hover {
+    background-color: saddlebrown;
+}
+
+.ais-CurrentRefinements {
+    /* margin-bottom: .25rem; */
+    display: inline-flex;
+}
+
+.ais-ClearRefinements {
+    /* margin-bottom: .25rem; */
+    display: inline-flex;
+}
+
+.ais-CurrentRefinements-item {
+    background-color: #666;
+}
+
+.ais-CurrentRefinements-category {
+    display: inline-flex;
+}
+
+.ais-CurrentRefinements-delete {
+    border-radius: 50%;
+    background-color: white;
+    width: 14px;
+    height: 14px;
+    color: black;
+    font-size: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ais-RefinementList {
+    margin-bottom: 2rem;
+    padding: 2rem 0 2rem 0;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+}
+
+@media (min-width: 40em) {
+    .ais-RefinementList {
+        overflow-x: initial;
+        white-space: initial;
+    }
+}

@@ -1,0 +1,18 @@
+.ais-Pagination-item {
+    background-color: white;
+}
+
+.ais-Pagination {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ais-Pagination-link {
+    color: #666;
+    border: none;
+}
+
+.ais-Pagination-item--selected .ais-Pagination-link {
+    background-color: salmon;
+    border-color: salmon;
+}

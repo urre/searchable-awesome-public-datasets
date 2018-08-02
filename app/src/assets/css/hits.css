@@ -1,0 +1,40 @@
+.ais-Hits-item {
+    background-color: white;
+    padding: 2rem;
+    transition: box-shadow 0.2s ease-in-out 0s, background 0.2s ease-in-out 0s, transform 0.1s ease-in-out 0s;
+    flex: 1 1 100%;
+    border-radius: 4px;
+    border: none;
+    border-left: 4px solid white;
+}
+
+.ais-Hits-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-left: 4px solid salmon;
+    transform: scale(1.01);
+}
+
+.hit-url {
+    color: #ccc;
+    font-family: monospace;
+    word-wrap: break-word;
+
+    /* display: none; */
+}
+
+@media (min-width: 40em) {
+    .hit-url {
+        /* display: block; */
+    }
+}
+
+.hit-title {
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+@media (min-width: 40em) {
+    .hit-title {
+        font-size: 1.5rem;
+    }
+}
